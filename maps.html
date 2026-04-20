@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps of Arda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="index.html" class="site-header-title">Tolkien's Legendarium</a>
+        <span class="site-header-ornament">A Chronicle of Middle-earth</span>
+    </header>
+<nav>
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <img src="imgs/tolkien_logo.png" alt="The World of Arda">
+            </a>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_tolkien.html">J.R.R. Tolkien</a></li>
+                <li>
+                    <a href="arda.html">The World of Arda ▾</a>
+                    <div class="dropdown">
+                        <a href="arda.html">Brief History</a>
+                        <a href="maps.html">Geography & Maps</a>
+                        <a href="peoples.html">Peoples of Arda</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-btn">☰</label>
+
+    <div class="sidebar">
+        <span class="sidebar-group">Maps</span>
+        <a href="#GeneralMaps" class="sub-link">Maps of the World</a>
+        <a href="#Arda_Stages" class="sub-link">Stages of Arda</a>
+    </div>
+
+    <div class="content-wrapper">
+        <main>
+            <h1>Geography &amp; Maps</h1>
+            <p class="page-subtitle">Cartography of the Known World</p>
+            <div class="page-divider"></div>
+
+            <!-- ===== General Maps ===== -->
+            <section id="GeneralMaps" class="section">
+                <h2 class="section-divider">Maps of the World</h2>
+
+                <div class="gallery">
+                    <input type="radio" name="general-map" id="gm1" class="gallery-radio">
+                    <input type="radio" name="general-map" id="gm2" class="gallery-radio">
+                    <input type="radio" name="general-map" id="gm3" class="gallery-radio">
+                    <input type="radio" name="general-map" id="gm4" class="gallery-radio">
+                    <input type="radio" name="general-map" id="gm5" class="gallery-radio">
+
+                    <div class="gallery-list">
+                        <label for="gm1">Tolkien Map 1</label>
+                        <label for="gm2">Tolkien Map 2</label>
+                        <label for="gm3">Tolkien Map 3</label>
+                        <label for="gm4">Tolkien Map 4</label>
+                        <label for="gm5">Tolkien Map 5</label>
+                    </div>
+
+                    <div class="gallery-preview">
+                        <div class="gallery-placeholder">← Select a map to view it</div>
+
+                        <div class="gallery-item" id="gm1-view">
+                            <figure>
+                                <img src="Maps/tolkienmap1.png" alt="Tolkien Map 1">
+                                <figcaption>TOLKIEN MAP 1</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="gallery-item" id="gm2-view">
+                            <figure>
+                                <img src="Maps/tolkienmap2.png" alt="Tolkien Map 2">
+                                <figcaption>TOLKIEN MAP 2</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="gallery-item" id="gm3-view">
+                            <figure>
+                                <img src="Maps/tolkienmap3.png" alt="Tolkien Map 3">
+                                <figcaption>TOLKIEN MAP 3</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="gallery-item" id="gm4-view">
+                            <figure>
+                                <img src="Maps/tolkienmap4.png" alt="Tolkien Map 4">
+                                <figcaption>TOLKIEN MAP 4</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="gallery-item" id="gm5-view">
+                            <figure>
+                                <img src="Maps/tolkienmap5.png" alt="Tolkien Map 5">
+                                <figcaption>TOLKIEN MAP 5</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== Stages of Arda ===== -->
+            <section id="Arda_Stages" class="section">
+                <h2 class="section-divider">Stages of Arda</h2>
+
+                <div class="gallery">
+                    <input type="radio" name="arda-map" id="am1" class="gallery-radio">
+                    <input type="radio" name="arda-map" id="am2" class="gallery-radio">
+                    <input type="radio" name="arda-map" id="am3" class="gallery-radio">
+                    <input type="radio" name="arda-map" id="am4" class="gallery-radio">
+
+                    <div class="gallery-list">
+                        <label for="am1">Arda — Stage 1</label>
+                        <label for="am2">Arda — Stage 2</label>
+                        <label for="am3">Arda — Stage 3</label>
+                        <label for="am4">Arda — Stage 4</label>
+                    </div>
+
+                    <div class="gallery-preview">
+                        <div class="gallery-placeholder">← Select a map to view it</div>
+
+                        <div class="gallery-item" id="am1-view">
+                            <figure>
+                                <img src="Maps/ardamap1.png" alt="Arda Map Stage 1">
+                                <figcaption>Arda during Stage 1</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="gallery-item" id="am2-view">
+                            <figure>
+                                <img src="Maps/ardamap2.png" alt="Arda Map Stage 2">
+                                <figcaption>Arda during Stage 2</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="gallery-item" id="am3-view">
+                            <figure>
+                                <img src="Maps/ardamap3.png" alt="Arda Map Stage 3">
+                                <figcaption>Arda during Stage 3</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="gallery-item" id="am4-view">
+                            <figure>
+                                <img src="Maps/ardamap4.png" alt="Arda Map Stage 4">
+                                <figcaption>Arda during Stage 4</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <footer class="site-footer">
+        <div class="site-footer-rule">✦</div>
+        <nav class="site-footer-nav">
+            <a href="index.html">Home</a>
+            <span>|</span>
+            <a href="about_tolkien.html">J.R.R. Tolkien</a>
+            <span>|</span>
+            <a href="arda.html">History of Arda</a>
+            <span>|</span>
+            <a href="maps.html">Geography &amp; Maps</a>
+            <span>|</span>
+            <a href="peoples.html">Peoples of Arda</a>
+        </nav>
+        <div class="site-footer-socials">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter / X</a>
+            <a href="#">YouTube</a>
+        </div>
+        <p class="site-footer-copy">&copy; 2025 Tolkien's Legendarium. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
